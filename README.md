@@ -89,23 +89,23 @@
     단순 통계가 아닌, 고객 행동의 <b>‘변곡점(Change Point)’</b>을 포착하는 파생변수 설계
   </blockquote>
 
-  <h4>🔎 Core Derived Features</h4>
+  <h4> Core Derived Features</h4>
 
   <ul>
     <li>
-      <b>📌 Age–Wealth Gap</b><br/>
+      <b> Age–Wealth Gap</b><br/>
       <span style="color:#444;">동일 연령대 대비 자산 수준의 괴리도</span><br/>
       <span style="color:#888;">→ 기대 자산 대비 과도하게 낮은 경우 이탈 위험 증가</span>
     </li>
     <br/>
     <li>
-      <b>📌 Asset Drain Velocity</b><br/>
+      <b> Asset Drain Velocity</b><br/>
       <span style="color:#444;">자산 감소 속도 지표</span><br/>
       <span style="color:#888;">→ 급격한 자산 이탈은 불만/서비스 이동 신호 가능</span>
     </li>
   </ul>
 
-  <h4>📊 Behavioral Dynamics Features</h4>
+  <h4> Behavioral Dynamics Features</h4>
   <ul>
     <li>거래 패턴 변화율</li>
     <li>신용 사용 강도 변화</li>
