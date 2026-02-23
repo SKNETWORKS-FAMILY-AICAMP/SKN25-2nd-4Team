@@ -1,0 +1,19 @@
+데이터 컬럼 정의 (Data Definitions)
+   - RowNumber: 레코드(행) 번호 (분석 제외)
+   - CustomerId: 고객 고유 아이디 (분석 제외)
+   - Surname: 고객 성씨 (분석 제외)
+   - CreditScore: 신용 점수 (점수가 높을수록 이탈 가능성 낮음)
+   - Geography: 거주 지역 (국가/지역별 이탈 특성 분석)
+   - Gender: 성별 (성별에 따른 이탈 역할 탐색)
+   - Age: 연령 (고연령층일수록 이탈 가능성이 낮은 경향)
+   - Tenure: 거래 기간 (은행 고객 유지 기간)
+   - Balance: 계좌 잔액 (잔액이 많을수록 이탈 가능성 낮음)
+   - NumOfProducts: 이용 중인 금융 상품 수
+   - HasCrCard: 신용카드 보유 여부
+   - IsActiveMember: 활성 회원 여부 (활동적일수록 이탈 가능성 낮음)
+   - EstimatedSalary: 추정 급여 (급여가 높을수록 이탈 가능성 낮음)
+   - Complain: 컴플레인(불만 제기) 여부
+   - Satisfaction Score: 만족도 점수
+   - Card Type: 보유 카드 등급 및 유형
+   - Points Earned: 신용카드 이용 적립 포인트
+   - Exited (Target): 이탈 여부 (1: 이탈, 0: 유지)
