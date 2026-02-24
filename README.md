@@ -86,6 +86,48 @@ Feb 23, 2026 - Feb 24, 2026
 <hr/>
 
 ## 프로젝트 소개
+
+<pre>
+<b>Fin-Care-Customer-Churn/</b>
+├── <b>data/</b>                    <span style="color: #6a737d;"># 데이터 자산 관리</span>
+│   ├── Customer-Churn-Records.csv  <span style="color: #6a737d;"># 원본 데이터셋 (10,000명 고객 정보)</span>
+│   ├── column_info.txt      <span style="color: #6a737d;"># 데이터 정의서 (Feature 및 Target 정의)</span>
+│   ├── X_train_final.pkl    <span style="color: #6a737d;"># 전처리가 완료된 학습용 피처셋 (Serialized)</span>
+│   └── y_train.csv          <span style="color: #6a737d;"># 학습용 타겟 데이터</span>
+├── <b>EDA/</b>                     <span style="color: #6a737d;"># 탐색적 데이터 분석</span>
+│   └── EDA1.ipynb           <span style="color: #6a737d;"># 분포 분석 및 이탈 요인 시각화 리포트</span>
+├── <b>image/</b>                   <span style="color: #6a737d;"># 프로젝트 문서화용 리소스</span>
+│   ├── article.png          <span style="color: #6a737d;"># 금융 뉴스 캡처</span>
+│   ├── cat.png              <span style="color: #6a737d;"># CatBoost 모델 구조 및 마스코트</span>
+│   └── simul.gif            <span style="color: #6a737d;"># Streamlit 대시보드 시연 화면</span>
+├── <b>models/</b>                  <span style="color: #6a737d;"># 학습 완료된 모델 바이너리 (Deployment Ready)</span>
+│   ├── model_catboost.bin   <span style="color: #6a737d;"># 메인 예측 모델 (CatBoost)</span>
+│   ├── model_lgbm.pkl       <span style="color: #6a737d;"># 비교 모델 (LightGBM)</span>
+│   ├── model_logistic.pkl   <span style="color: #6a737d;"># 베이스라인 모델 (Logistic)</span>
+│   ├── model_rf.pkl         <span style="color: #6a737d;"># 비교 모델 (Random Forest)</span>
+│   ├── model_xgb.pkl        <span style="color: #6a737d;"># 비교 모델 (XGBoost)</span>
+│   └── preprocessor.pkl     <span style="color: #6a737d;"># 통합 전처리 파이프라인 객체</span>
+├── <b>notebooks/</b>               <span style="color: #6a737d;"># 실험 및 검증 과정 (Sandbox)</span>
+│   ├── model_catboost.ipynb <span style="color: #6a737d;"># CatBoost 하이퍼파라미터 튜닝 기록</span>
+│   └── model_select.ipynb   <span style="color: #6a737d;"># 알고리즘 성능 비교 및 모델 선정</span>
+├── <b>scripts/</b>                 <span style="color: #6a737d;"># 자동화 및 모듈화된 학습 스크립트</span>
+│   ├── 01_preprocess.py     <span style="color: #6a737d;"># 데이터 정제 및 파이프라인 구축 자동화</span>
+│   ├── 02_train_logistic.py <span style="color: #6a737d;"># 로지스틱 회귀 모델 학습</span>
+│   ├── 03_train_random_forest.py
+│   ├── 04_train_xgboost.py
+│   ├── 05_train_lightgbm.py
+│   ├── 06_train_catboost.py <span style="color: #6a737d;"># 최종 선정 모델 학습</span>
+│   └── train_ann.py         <span style="color: #6a737d;"># 인공신경망(ANN) 실험 스크립트</span>
+├── <b>streamlit/</b>               <span style="color: #6a737d;"># 웹 기반 의사결정 지원 도구</span>
+│   ├── app.py               <span style="color: #6a737d;"># 스트림릿 애플리케이션 메인 코드</span>
+│   ├── catboost_churn.cbm   <span style="color: #6a737d;"># 실시간 추론용 경량화 모델</span>
+│   ├── model_meta.json      <span style="color: #6a737d;"># 모델 버전 및 Threshold 설정 정보</span>
+│   └── <b>catboost_info/</b>       <span style="color: #6a737d;"># 모델 학습 로그 및 메트릭 데이터</span>
+└── <b>drop-complain/</b>           <span style="color: #6a737d;"># 특정 변수 영향도 심층 분석</span>
+    ├── drop_complain1.ipynb
+    └── drop_complain2.ipynb
+</pre>
+
 본 프로젝트 **'핀-케어(Fin-Care)'**는 은행 고객의 단순 잔고 변화를 넘어, 행동 편향(Behavioral Bias) 기반의 자산 유출 및 이탈 조기 탐지 시스템 구축을 목표로 합니다.
 
 단순히 "이탈할 것인가?"라는 결과값만 제시하는 기존의 블랙박스 모델에서 탈피하여, **"왜 평소와 다른 패턴으로 금융 행동을 하는가?"**에 대한 데이터 기반의 해답을 제시합니다. 비즈니스 맥락을 정교하게 반영한 패턴 변곡점(Pivot) 파생변수 설계와 해석 가능한 AI(Explainable AI) 기술을 결합하여, 실무자가 즉각적인 마케팅 액션(Action Plan)을 수립할 수 있도록 돕는 최적의 의사결정 지원 도구를 제공합니다.
