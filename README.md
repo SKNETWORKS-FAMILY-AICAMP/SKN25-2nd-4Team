@@ -89,7 +89,7 @@ Feb 23, 2026 - Feb 24, 2026
 
 <pre>
 <b>Fin-Care-Customer-Churn/</b>
-├── <b>data/</b>                    <span style="color: #6a737d;"># 데이터 자산 관리</span>
+├── <b>data/</b>                    <span style="color: #6a737d;"></span>
 │   ├── Customer-Churn-Records.csv  <span style="color: #6a737d;"># 원본 데이터셋 </span>
 │   ├── column_info.txt      <span style="color: #6a737d;"># 데이터 정의서 </span>
 │   ├── X_train_final.pkl    <span style="color: #6a737d;"># 전처리가 완료된 학습용 피처셋</span>
