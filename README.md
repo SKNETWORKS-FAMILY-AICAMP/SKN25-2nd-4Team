@@ -9,6 +9,9 @@
 
 저희 팀은 협업과 지속적인 학습, 그리고 데이터에서 의미를 찾아내는 탐구 정신을 바탕으로, 복잡하고 다양한 금융 데이터를 효과적으로 분석하며, 프로젝트의 모든 단계에서 가치를 창출할 수 있도록 최선을 다하고 있습니다.</b>
 
+<div align="center">
+<img width="400" height="400" alt="explorers" src="https://github.com/user-attachments/assets/f265ff1e-8eaf-4605-86b3-590d192600ea" />
+</div>
 
 # 2. 프로젝트 기간
 
