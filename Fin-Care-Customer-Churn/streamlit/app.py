@@ -31,9 +31,9 @@ def set_korean_font():
 
 chosen = set_korean_font()
 if chosen is None:
-    print("⚠️ 한글 폰트를 찾지 못했습니다. 후보 폰트를 설치하거나 font.family를 직접 지정하세요.")
+    print(" 한글 폰트를 찾지 못했습니다. 후보 폰트를 설치하거나 font.family를 직접 지정하세요.")
 else:
-    print(f"✅ Using Korean font: {chosen}")
+    print(f" Using Korean font: {chosen}")
     
 
 # --- 학습과 동일한 파생변수 ---
@@ -51,10 +51,10 @@ def add_custom_features(df: pd.DataFrame) -> pd.DataFrame:
 
 @st.cache_resource
 def load_artifacts():
-    with open("model_meta.json", "r", encoding="utf-8") as f:
+    with open("Fin-Care-Customer-Churn/streamlit/model_meta.json", "r", encoding="utf-8") as f:
         meta = json.load(f)
     model = CatBoostClassifier()
-    model.load_model("catboost_churn.cbm")
+    model.load_model("Fin-Care-Customer-Churn/streamlit/catboost_churn.cbm")
     return model, meta
 
 def slider_num(label, stats, step=None):
@@ -130,7 +130,7 @@ def plot_shap_waterfall(base_value: float, contrib_df: pd.DataFrame, top_n: int 
     ends = cum[1:]
     widths = [e - s for s, e in zip(starts, ends)]
 
-    # ✅ 발표 화면에서 선명하게 보이도록: 작은 캔버스 + 높은 DPI
+    # 발표 화면에서 선명하게 보이도록: 작은 캔버스 + 높은 DPI
     fig, ax = plt.subplots(figsize=(6.0, 3.4), dpi=260)
     y_pos = np.arange(len(labels))[::-1]  # 위에서 아래로
     for i, (lab, s, w) in enumerate(zip(labels[::-1], starts[::-1], widths[::-1])):
@@ -180,7 +180,7 @@ st.markdown(
     """
 <div class="hero">
   <div class="hero-left">
-    <div class="hero-title">📉 은행 가입 고객 이탈 예측 시뮬레이터</div>
+    <div class="hero-title"> 📉은행 가입 고객 이탈 예측 시뮬레이터</div>
     <div class="hero-sub">사용자 입력 → 예측 결과 → SHAP 워터폴(설명)</div>
   </div>
   <div class="hero-badge">CatBoost · SHAP</div>
@@ -504,7 +504,7 @@ def go_to_input():
 # 1) 입력 화면
 # -----------------------------
 if st.session_state.page == "input":
-    st.subheader("🎯 사용자 입력 폼")
+    st.subheader(" 사용자 입력 폼")
     num_stats = meta["num_stats"]
     cat_vals = meta.get("cat_values", {})
 
@@ -534,7 +534,7 @@ if st.session_state.page == "input":
 
         show_shap = st.checkbox("SHAP 워터폴 첨부", value=True)
 
-        submitted = st.form_submit_button("🔮 예측 결과 보기")
+        submitted = st.form_submit_button(" 예측 결과 보기")
 
         if submitted:
             base_raw = {
@@ -566,7 +566,7 @@ elif st.session_state.page == "result":
         go_to_input()
     
 
-    st.subheader("🎯 예측 결과")
+    st.subheader(" 예측 결과")
     
 
     base_prob, base_X, base_pool = predict_proba_one(model, meta, base_raw)
@@ -619,7 +619,7 @@ elif st.session_state.page == "result":
 
     if show_shap:
         st.markdown("---")
-        st.subheader("🧠 예측 해석")
+        st.subheader(" 예측 해석")
 
         try:
             shap_arr = model.get_feature_importance(base_pool, type="ShapValues")
@@ -638,16 +638,16 @@ elif st.session_state.page == "result":
             png = fig_to_png_bytes(fig, dpi=600)
             plt.close(fig)
 
-            # ✅ 워터폴(왼쪽) + '주요 요인'(오른쪽) **동일 비율** 배치
+            #  워터폴(왼쪽) + '주요 요인'(오른쪽) **동일 비율** 배치
             col_left, col_right = st.columns([1, 1], gap="large")
 
             with col_left:
-                st.markdown("#### 📊 SHAP 워터폴: 예측 결과 도출 이유")
+                st.markdown("####  SHAP 워터폴: 예측 결과 도출 이유")
                 st.image(png, caption="SHAP Waterfall (Top 7)", use_container_width=True)
 
             with col_right:
-                st.markdown("#### ✨ 이탈 확률 주요 요인")
-                # ✅ 워터폴 옆 '주요 요인' 카드: 확률 배지 + 컬러 강조 + (이탈↑ 3 / 이탈↓ 3)
+                st.markdown("####  이탈 확률 주요 요인")
+                #  워터폴 옆 '주요 요인' 카드: 확률 배지 + 컬러 강조 + (이탈↑ 3 / 이탈↓ 3)
                 prob_pct = round(float(base_prob) * 100, 1)
                 verdict = "이탈(1)" if base_prob >= THR_FIXED else "유지(0)"
                 verdict_txt = f"판정: {verdict} · 임계값 {THR_FIXED:.2f}"
