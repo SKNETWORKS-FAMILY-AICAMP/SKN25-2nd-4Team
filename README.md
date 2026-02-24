@@ -1,6 +1,8 @@
 # SKN25-2nd-4Team
 
 # 1. 팀 소개
+## 🛠 Tech Stack
+
 
 # 2. 프로젝트 기간
 
@@ -10,7 +12,7 @@
 
 ## 프로젝트 배경 및 목적
 
-<h3>1️⃣ Background</h3>
+<h3> Background</h3>
 
 <p>
 금융 산업에서 <b>고객 이탈(Churn)</b>은 직접적인 수익 감소로 이어지는 핵심 리스크 요소입니다.
@@ -32,7 +34,7 @@
 
 <hr/>
 
-<h3>2️⃣ Objective</h3>
+<h3> Objective</h3>
 
 <p>
 본 프로젝트의 목적은 단순 예측 모델을 넘어,
@@ -188,28 +190,28 @@
 <b>실무 의사결정에 직접 활용 가능한 도구</b>를 목표로 설계되었습니다.
 </p>
 
-<h3>1️⃣ CRM / 마케팅 전략 담당자</h3>
+<h3>1. CRM / 마케팅 전략 담당자</h3>
 <ul>
   <li>이탈 위험 고객을 사전에 식별하여 맞춤형 프로모션 설계</li>
   <li>고위험 고객 우선 관리 전략 수립</li>
   <li>마케팅 비용 대비 효율(ROI) 극대화</li>
 </ul>
 
-<h3>2️⃣ 데이터 분석가 / 데이터 사이언티스트</h3>
+<h3>2. 데이터 분석가 / 데이터 사이언티스트</h3>
 <ul>
   <li>이탈 요인 해석을 통한 인사이트 도출</li>
   <li>행동 변곡점 기반 세그먼트 분석</li>
   <li>추가 모델 고도화 및 실험 설계</li>
 </ul>
 
-<h3>3️⃣ 리스크 관리 / 전략 기획 부서</h3>
+<h3>3️. 리스크 관리 / 전략 기획 부서</h3>
 <ul>
   <li>고객 자산 이탈 패턴 모니터링</li>
   <li>이탈률 감소를 위한 정책 수립</li>
   <li>중장기 고객 유지 전략 설계</li>
 </ul>
 
-<h3>4️⃣ 경영진 / 의사결정자</h3>
+<h3>4️. 경영진 / 의사결정자</h3>
 <ul>
   <li>이탈 위험 지표 기반 KPI 관리</li>
   <li>데이터 기반 전략적 의사결정 지원</li>
@@ -218,7 +220,7 @@
 
 <hr/>
 
-<h3>🎯기대효과</h3>
+<h3>기대효과</h3>
 
 <ul>
   <li>고위험 고객 선제적 관리 가능</li>
@@ -228,8 +230,39 @@
 </ul>
 
 
+# 3. 기술스텍
+## 🛠 Tech Stack
 
+### Language & Environment
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
+---
+
+###  Data Analysis & Preprocessing
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+
+---
+
+###  Machine Learning Models
+![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=for-the-badge&logo=catboost&logoColor=black)
+![XGBoost](https://img.shields.io/badge/XGBoost-AA4A44?style=for-the-badge&logo=xgboost&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=for-the-badge&logo=lightgbm&logoColor=white)
+![Random Forest](https://img.shields.io/badge/RandomForest-228B22?style=for-the-badge&logo=treehouse&logoColor=white)
+
+---
+
+### Visualization
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-5A9?style=for-the-badge&logo=python&logoColor=white)
+
+---
+
+###  Deployment (Simulator)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 # 5. 수행결과
 
 # 6. 한 줄 회고
