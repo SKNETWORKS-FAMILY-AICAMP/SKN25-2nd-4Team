@@ -246,10 +246,10 @@
 
 | Model | AUC | Precision | Recall | F1-score |
 | :--- | :---: | :---: | :---: | :---: |
-| Logistic Regression | 0.85 | 0.39 | 0.85 | 0.53 |
-| Random Forest | 0.86 | 0.47 | 0.78 | 0.58 |
-| XGBoost | 0.86 | 0.45 | 0.80 | 0.58 |
-| LightGBM | 0.86 | 0.45 | 0.81 | 0.58 |
+| Logistic Regression | 0.84 | 0.37 | 0.85 | 0.52 |
+| Random Forest | 0.85 | 0.45 | 0.78 | 0.57 |
+| XGBoost | 0.86 | 0.45 | 0.80 | 0.57 |
+| LightGBM | 0.86 | 0.44 | 0.81 | 0.57 |
 | CatBoost | 0.88 | 0.48 | 0.81 | 0.60 |
 <br>
 
