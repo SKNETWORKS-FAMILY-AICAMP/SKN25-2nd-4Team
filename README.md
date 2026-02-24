@@ -86,7 +86,7 @@ Feb 23, 2026 - Feb 24, 2026
 <hr/>
 
 ## 프로젝트 소개
-
+###프로젝트 구조
 <pre>
 <b>Fin-Care-Customer-Churn/</b>
 ├── <b>data/</b>                    <span style="color: #6a737d;"></span>
