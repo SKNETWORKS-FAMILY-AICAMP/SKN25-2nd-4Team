@@ -253,6 +253,10 @@
 
 ### 📈 CatBoost
 ![CatBoost 성능 그래프](Fin-Care-Customer-Churn/image/cat.png)
+<br>
+
+### Streamlit
+![Streamlit 시연](Fin-Care-Customer-Churn/image/simul.gif)
 # 6. 한 줄 회고
 
 # 7. 기술스텍
