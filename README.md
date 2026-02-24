@@ -20,6 +20,10 @@
 
 <h3> Background</h3>
 
+<img src="Fin-Care-Customer-Churn/image/article.png" align="left" width="800">
+
+<br clear="left"/>
+
 <p>
 금융 산업에서 <b>고객 이탈(Churn)</b>은 직접적인 수익 감소로 이어지는 핵심 리스크 요소입니다.
 특히 기존 고객을 유지하는 비용은 신규 고객을 유치하는 비용보다 훨씬 낮기 때문에,
