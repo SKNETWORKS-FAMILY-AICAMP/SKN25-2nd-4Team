@@ -90,15 +90,15 @@ Feb 23, 2026 - Feb 24, 2026
 <pre>
 <b>Fin-Care-Customer-Churn/</b>
 ├── <b>data/</b>                    <span style="color: #6a737d;"># 데이터 자산 관리</span>
-│   ├── Customer-Churn-Records.csv  <span style="color: #6a737d;"># 원본 데이터셋 (10,000명 고객 정보)</span>
-│   ├── column_info.txt      <span style="color: #6a737d;"># 데이터 정의서 (Feature 및 Target 정의)</span>
-│   ├── X_train_final.pkl    <span style="color: #6a737d;"># 전처리가 완료된 학습용 피처셋 (Serialized)</span>
+│   ├── Customer-Churn-Records.csv  <span style="color: #6a737d;"># 원본 데이터셋 </span>
+│   ├── column_info.txt      <span style="color: #6a737d;"># 데이터 정의서 </span>
+│   ├── X_train_final.pkl    <span style="color: #6a737d;"># 전처리가 완료된 학습용 피처셋</span>
 │   └── y_train.csv          <span style="color: #6a737d;"># 학습용 타겟 데이터</span>
 ├── <b>EDA/</b>                     <span style="color: #6a737d;"># 탐색적 데이터 분석</span>
 │   └── EDA1.ipynb           <span style="color: #6a737d;"># 분포 분석 및 이탈 요인 시각화 리포트</span>
-├── <b>image/</b>                   <span style="color: #6a737d;"># 프로젝트 문서화용 리소스</span>
-│   ├── article.png          <span style="color: #6a737d;"># 금융 뉴스 캡처</span>
-│   ├── cat.png              <span style="color: #6a737d;"># CatBoost 모델 구조 및 마스코트</span>
+├── <b>image/</b>                   <span style="color: #6a737d;"></span>
+│   ├── article.png          <span style="color: #6a737d;"></span>
+│   ├── cat.png              <span style="color: #6a737d;"></span>
 │   └── simul.gif            <span style="color: #6a737d;"># Streamlit 대시보드 시연 화면</span>
 ├── <b>models/</b>                  <span style="color: #6a737d;"># 학습 완료된 모델 바이너리 (Deployment Ready)</span>
 │   ├── model_catboost.bin   <span style="color: #6a737d;"># 메인 예측 모델 (CatBoost)</span>
@@ -120,10 +120,10 @@ Feb 23, 2026 - Feb 24, 2026
 │   └── train_ann.py         <span style="color: #6a737d;"># 인공신경망(ANN) 실험 스크립트</span>
 ├── <b>streamlit/</b>               <span style="color: #6a737d;"># 웹 기반 의사결정 지원 도구</span>
 │   ├── app.py               <span style="color: #6a737d;"># 스트림릿 애플리케이션 메인 코드</span>
-│   ├── catboost_churn.cbm   <span style="color: #6a737d;"># 실시간 추론용 경량화 모델</span>
-│   ├── model_meta.json      <span style="color: #6a737d;"># 모델 버전 및 Threshold 설정 정보</span>
+│   ├── catboost_churn.cbm   <span style="color: #6a737d;"></span>
+│   ├── model_meta.json      <span style="color: #6a737d;"></span>
 │   └── <b>catboost_info/</b>       <span style="color: #6a737d;"># 모델 학습 로그 및 메트릭 데이터</span>
-└── <b>drop-complain/</b>           <span style="color: #6a737d;"># 특정 변수 영향도 심층 분석</span>
+└── <b>drop-complain/</b>           <span style="color: #6a737d;"># 파생 변수</span>
     ├── drop_complain1.ipynb
     └── drop_complain2.ipynb
 </pre>
