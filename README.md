@@ -10,7 +10,7 @@
     <th align="center">최준명</th>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/acegikmoop">acegikmoop</a></td>
+    <td align="center"><a href="https://github.com/acegikmoop-code">acegikmoop</a></td>
     <td align="center"><a href="https://github.com/MunSu2001">MunSu2001</a></td>
     <td align="center"><a href="https://github.com/swimworld-kr">swimworld-kr</a></td>
     <td align="center"><a href="https://github.com/lhyckh6628">lhyckh6628</a></td>
