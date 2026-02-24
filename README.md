@@ -231,7 +231,19 @@
 
 
 # 5. 수행결과
+### 📊 모델 성능 비교
 
+| Model | AUC | Precision | Recall | F1-score |
+| :--- | :---: | :---: | :---: | :---: |
+| Logistic Regression | 0.85 | 0.39 | 0.85 | 0.53 |
+| Random Forest | 0.86 | 0.47 | 0.78 | 0.58 |
+| XGBoost | 0.86 | 0.45 | 0.80 | 0.58 |
+| LightGBM | 0.86 | 0.45 | 0.81 | 0.58 |
+| CatBoost | 0.88 | 0.50 | 0.80 | 0.62 |
+<br>
+
+### 📈 CatBoost
+![CatBoost 성능 그래프](Fin-Care-Customer-Churn/image/cat.png)
 # 6. 한 줄 회고
 
 # 7. 기술스텍
