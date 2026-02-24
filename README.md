@@ -1,15 +1,29 @@
 # SKN25-2nd-4Team
 
 # 1. 팀 소개
-</b>저희 팀은 박성진, 신문수, 이수영, 이하윤, 최준명으로 구성된 5명의 팀으로, 데이터 분석, 머신러닝, 그리고 금융 비즈니스 전략을 결합하여 고객 이탈 및 자산 유출 문제를 해결하고자 합니다. 각 팀원은 데이터 전처리, 파생변수 설계, 모델링, 시각화, 그리고 의사결정 지원 도구 개발 등 프로젝트 전반에 걸쳐 전문성을 발휘하며 협력하고 있습니다. 팀 내에서는 각자의 강점을 살려 역할을 분담하고, 필요할 때는 서로의 영역을 넘나들며 협업을 진행하여 최적의 결과를 도출하고 있습니다.
+<table>
+  <tr>
+    <th align="center">박성진</th>
+    <th align="center">신문수</th>
+    <th align="center">이수영</th>
+    <th align="center">이하윤</th>
+    <th align="center">최준명</th>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/acegikmoop">acegikmoop</a></td>
+    <td align="center"><a href="https://github.com/MunSu2001">MunSu2001</a></td>
+    <td align="center"><a href="https://github.com/swimworld-kr">swimworld-kr</a></td>
+    <td align="center"><a href="https://github.com/lhyckh6628">lhyckh6628</a></td>
+    <td align="center"><a href="https://github.com/jtschoy">jtschoy</a></td>
+  </tr>
+  <tr>
+    <td colspan="5" align="center">
+      데이터 분석, 데이터 전처리, 모델 선정, 하이퍼 파라미터 튜닝, 데이터 후 처리, 최종 리포트 페이지 제작
+    </td>
+  </tr>
+</table>
 
-저희 팀은 단순히 예측 모델을 개발하는 데 그치지 않고, 금융 데이터에 내재된 행동 패턴과 변화를 심층적으로 분석하여, 실무자가 직접 활용할 수 있는 데이터 기반 인사이트를 제공하는 것을 목표로 합니다. 이를 위해 고객 행동의 미세한 변화와 패턴 변곡점을 포착하고, 이를 모델링과 시각화에 반영하여 의사결정에 활용 가능한 결과물을 만들어냅니다. 또한, 데이터 분석 과정에서 도출되는 결과를 팀원 간 공유하고 토론함으로써, 다양한 관점에서 문제를 재해석하고 보다 정교한 전략을 설계할 수 있도록 노력하고 있습니다.
-
-더 나아가, 저희 팀은 프로젝트 전반에서 문제 해결 중심의 접근 방식을 지향합니다. 단순히 통계적 지표나 모델 성능만을 추구하는 것이 아니라, 실제 금융 비즈니스 환경에서 유의미하게 활용될 수 있는 솔루션을 개발하고자 합니다. 고객 이탈 원인을 이해하고, 이를 바탕으로 실무 전략을 설계할 수 있도록 지원하는 것이 저희 팀의 핵심 강점이자 최종 목표입니다.
-
-저희 팀은 협업과 지속적인 학습, 그리고 데이터에서 의미를 찾아내는 탐구 정신을 바탕으로, 복잡하고 다양한 금융 데이터를 효과적으로 분석하며, 프로젝트의 모든 단계에서 가치를 창출할 수 있도록 최선을 다하고 있습니다.</b>
-
-<div align="center">
+<div align="left">
 <img width="400" height="400" alt="explorers" src="https://github.com/user-attachments/assets/f265ff1e-8eaf-4605-86b3-590d192600ea" />
 </div>
 
