@@ -270,7 +270,7 @@ Feb 23, 2026 - Feb 24, 2026
 ### Streamlit
 ![Streamlit 시연](Fin-Care-Customer-Churn/image/simul.gif)
 ### 이탈확률별 분류
-| 리스크 | 이탈확률 | 판정 | 
+| 분류 | 이탈확률 | 판정 | 
 | :---: | :---: | :---: | 
 | High risk | >70% | 이탈 |
 | Medium risk | >40% | 이탈 |
