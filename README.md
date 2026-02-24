@@ -263,6 +263,11 @@
 
 ### Streamlit
 ![Streamlit 시연](Fin-Care-Customer-Churn/image/simul.gif)
+| 리스크 | 이탈확률 | 판정 | 
+| :---: | :---: | :---: | 
+| High risk | >70% | 이탈 |
+| Medium risk | >40% | 이탈 |
+| Low list | <40% | 유지 |
 # 6. 한 줄 회고
 | 이름 | 회고 |
 | :---: | :---: |
