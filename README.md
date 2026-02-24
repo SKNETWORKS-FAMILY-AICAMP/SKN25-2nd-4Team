@@ -151,15 +151,19 @@
       </tr>
       <tr>
         <td><b>Recall</b></td>
-        <td><b>80%</b></td>
+        <td><b>81%</b></td>
       </tr>
       <tr>
         <td>Precision</td>
-        <td>73%</td>
+        <td>48%</td>
       </tr>
       <tr>
         <td>Accuracy</td>
-        <td>84%</td>
+        <td>78%</td>
+      </tr>
+      <tr>
+        <td>f1-score</td>
+        <td>60%</td>
       </tr>
     </tbody>
   </table>
@@ -239,7 +243,7 @@
 | Random Forest | 0.86 | 0.47 | 0.78 | 0.58 |
 | XGBoost | 0.86 | 0.45 | 0.80 | 0.58 |
 | LightGBM | 0.86 | 0.45 | 0.81 | 0.58 |
-| CatBoost | 0.88 | 0.50 | 0.80 | 0.62 |
+| CatBoost | 0.88 | 0.48 | 0.81 | 0.60 |
 <br>
 
 ### 📈 CatBoost
