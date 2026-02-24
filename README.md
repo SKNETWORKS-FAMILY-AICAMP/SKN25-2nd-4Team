@@ -1,7 +1,6 @@
 # SKN25-2nd-4Team
 
 # 1. 팀 소개
-## 🛠 Tech Stack
 
 
 # 2. 프로젝트 기간
@@ -230,7 +229,12 @@
 </ul>
 
 
-# 3. 기술스텍
+
+# 5. 수행결과
+
+# 6. 한 줄 회고
+
+# 7. 기술스텍
 ## 🛠 Tech Stack
 
 ### Language & Environment
@@ -263,6 +267,3 @@
 
 ###  Deployment (Simulator)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-# 5. 수행결과
-
-# 6. 한 줄 회고
